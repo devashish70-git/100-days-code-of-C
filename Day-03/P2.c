@@ -1,7 +1,10 @@
-#include<stdio.h>
-int main(){
-    int a,b ;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a,&b);
-    printf("after swapping: %d %d", b,a);
-    return 0;}
+#include <stdio.h>
+int main() {
+    int a = 10, b = 20, c;
+    printf("Before swapping: a = %d, b = %d\n", a, b);    
+    c = a;
+    a = b;
+    b = c;
+    printf("After swapping: a = %d, b = %d\n", a, b);
+    return 0;
+}
