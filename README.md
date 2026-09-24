@@ -19,3 +19,11 @@ P2:Write a program to find and display the sum of the first n natural numbers
 ## Day 05
 P1:Write a program to calculate simple and compound interest for given principal, rate, and time.
 P2:Write a program to input time in seconds and convert it to hours:minutes:seconds format.
+
+## Day 06
+P1:Write a program to input an integer and check whether it is even or odd using if–else.
+P2:Write a program to input an integer and check whether it is positive, negative or zero using nested if–else.
+
+## Day 07
+P1:Write a program to input a year and check whether it is a leap year or not using conditional statements.
+P2:Write a program to input a character and check whether it is a vowel or consonant using if–else.
