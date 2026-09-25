@@ -27,3 +27,7 @@ P2:Write a program to input an integer and check whether it is positive, negativ
 ## Day 07
 P1:Write a program to input a year and check whether it is a leap year or not using conditional statements.
 P2:Write a program to input a character and check whether it is a vowel or consonant using if–else.
+
+## Day 08
+P1:Write a program to input a character and check whether it is an uppercase alphabet, lowercase alphabet, digit, or special character.
+P2:Write a program to input three numbers and find the largest among them using if–else.
