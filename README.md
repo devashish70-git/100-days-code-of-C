@@ -60,3 +60,24 @@ First 100 units at ₹5/unit
 Next 100 units at ₹7/unit 
 Next 100 units at ₹10/unit 
 Above at ₹12/unit
+
+## Day 13
+Q25 (Conditional Statements)
+Write a program to implement a basic calculator using switch-case for +, -, *, /, %.
+
+Q26 (Loops without Arrays/Strings)
+Write a program to print numbers from 1 to n.
+
+## Day 14
+Q27 (Loops without Arrays/Strings)
+Write a program to print the sum of the first n odd numbers.
+
+Q28 (Loops without Arrays/Strings)
+Write a program to print the product of even numbers from 1 to n.
+
+## Day 15
+Q29 (Loops without Arrays/Strings)
+Write a program to calculate the factorial of a number.
+
+Q30 (Loops without Arrays/Strings)
+Write a program to reverse a given number.
