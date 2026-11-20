@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, key, found = 0;
     scanf("%d", &n);
     int arr[n];
@@ -10,8 +11,10 @@ int main() {
 
     scanf("%d", &key);
 
-    for (i = 0; i < n; i++) {
-        if (arr[i] == key) {
+    for (i = 0; i < n; i++)
+    {
+        if (arr[i] == key)
+        {
             printf("Found at index %d", i);
             found = 1;
             break;

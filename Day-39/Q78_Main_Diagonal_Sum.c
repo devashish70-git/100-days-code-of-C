@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, j, sum = 0;
     scanf("%d", &n);
     int a[n][n];

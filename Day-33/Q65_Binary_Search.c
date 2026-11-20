@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, key, low, high, mid, found = 0;
     scanf("%d", &n);
     int arr[n];
@@ -12,15 +13,21 @@ int main() {
     low = 0;
     high = n - 1;
 
-    while (low <= high) {
+    while (low <= high)
+    {
         mid = low + (high - low) / 2;
-        if (arr[mid] == key) {
+        if (arr[mid] == key)
+        {
             printf("Found at index %d", mid);
             found = 1;
             break;
-        } else if (arr[mid] < key) {
+        }
+        else if (arr[mid] < key)
+        {
             low = mid + 1;
-        } else {
+        }
+        else
+        {
             high = mid - 1;
         }
     }

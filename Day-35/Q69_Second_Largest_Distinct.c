@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, largest, second, found = 0;
     scanf("%d", &n);
     int arr[n];
@@ -14,8 +15,10 @@ int main() {
         if (arr[i] > largest)
             largest = arr[i];
 
-    for (i = 0; i < n; i++) {
-        if (arr[i] < largest && (!found || arr[i] > second)) {
+    for (i = 0; i < n; i++)
+    {
+        if (arr[i] < largest && (!found || arr[i] > second))
+        {
             second = arr[i];
             found = 1;
         }

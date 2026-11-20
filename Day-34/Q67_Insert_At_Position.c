@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, pos, value;
     scanf("%d", &n);
     int arr[n + 1];
@@ -10,7 +11,8 @@ int main() {
 
     scanf("%d%d", &pos, &value);
 
-    if (pos < 1 || pos > n + 1) {
+    if (pos < 1 || pos > n + 1)
+    {
         printf("Invalid position");
         return 0;
     }

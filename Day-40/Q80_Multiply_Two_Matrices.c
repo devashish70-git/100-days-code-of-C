@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int r1, c1, r2, c2, i, j, k;
     scanf("%d%d", &r1, &c1);
     int a[r1][c1];
@@ -16,13 +17,16 @@ int main() {
         for (j = 0; j < c2; j++)
             scanf("%d", &b[i][j]);
 
-    if (c1 != r2) {
+    if (c1 != r2)
+    {
         printf("Matrix multiplication not possible");
         return 0;
     }
 
-    for (i = 0; i < r1; i++) {
-        for (j = 0; j < c2; j++) {
+    for (i = 0; i < r1; i++)
+    {
+        for (j = 0; j < c2; j++)
+        {
             result[i][j] = 0;
             for (k = 0; k < c1; k++)
                 result[i][j] += a[i][k] * b[k][j];

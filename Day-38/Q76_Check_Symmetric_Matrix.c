@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, j, symmetric = 1;
     scanf("%d", &n);
     int a[n][n];

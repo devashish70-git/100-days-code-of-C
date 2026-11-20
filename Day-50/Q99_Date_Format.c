@@ -4,4 +4,10 @@
 #include <string.h>
 #include <ctype.h>
 
-int main(){ int d,y; scanf("%d/04/%d",&d,&y); printf("%02d-Apr-%d",d,y); return 0; }
+int main()
+{
+    int d, y;
+    scanf("%d/04/%d", &d, &y);
+    printf("%02d-Apr-%d", d, y);
+    return 0;
+}

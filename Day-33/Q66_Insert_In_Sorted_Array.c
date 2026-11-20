@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n, i, value, pos;
     scanf("%d", &n);
     int arr[n + 1];
@@ -11,7 +12,8 @@ int main() {
     scanf("%d", &value);
     pos = n;
 
-    while (pos > 0 && arr[pos - 1] > value) {
+    while (pos > 0 && arr[pos - 1] > value)
+    {
         arr[pos] = arr[pos - 1];
         pos--;
     }
